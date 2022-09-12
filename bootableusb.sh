@@ -1,4 +1,4 @@
-#Bootable USB Maker for Thakur OS
+#Bootable USB Maker for Agni OS
 #!/bin/bash
 #set -e
 #=================================================================================
