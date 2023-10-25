@@ -32,13 +32,11 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
+#grml-zsh-config
 hdparm
 intel-ucode
-ipw2100-fw
-ipw2200-fw
 irssi
-iwd
+#iwd
 jfsutils
 lftp
 linux
@@ -98,7 +96,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
+#zsh
 
 #Agni Core
 xorg
@@ -120,7 +118,7 @@ pulseaudio-bluetooth
 #Installer
 grub
 calamares
-#alg-theme-cala-config
+agni-cala-config
 os-prober
 
 #browser
@@ -128,15 +126,16 @@ firefox
 #alg-firefox-settings
 
 #Applications
-#vlc
+vlc
 neofetch
 #gnome-software-packagekit-plugin
+duf
 
 #Theming
 #tela-circle-icon
 #vimix-cursors
 #orchis-theme-git
-archlinux-wallpaper
+#archlinux-wallpaper
 
 #Bluetooth
 bluez
@@ -144,15 +143,15 @@ gnome-bluetooth
 
 #Office
 libreoffice-still
-ttf-ms-fonts
-#noto-fonts
-#noto-fonts-cjk
+#ttf-ms-fonts
+noto-fonts
+noto-fonts-cjk
 
 #printing
 cups
 
 #AUR Helper
-paru
+#paru
 
 #NVIDIA Drivers & Tools
 nvidia
