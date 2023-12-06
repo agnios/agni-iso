@@ -96,6 +96,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+lsb-release
 #zsh
 
 #Agni Core

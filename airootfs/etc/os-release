@@ -1,0 +1,6 @@
+NAME="Agni OS"
+PRETTY_NAME="Agni OS"
+ID=agni
+BUILD_ID=agnios
+ANSI_COLOR="33;1;23;147;209"
+LOGO=agnios
