@@ -118,7 +118,7 @@ pulseaudio-bluetooth
 #Installer
 grub
 calamares
-agni-cala-config
+#agni-cala-config
 os-prober
 
 #browser

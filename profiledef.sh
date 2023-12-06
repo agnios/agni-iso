@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="agni"
-iso_label="AGNI_$(date +%Y%m)"
+iso_name="agnios"
+iso_label="AGNIOS_$(date +%Y%m)"
 iso_publisher="DemonKiller <https://demonkiller.tech>"
-iso_application="AgniOS Live/Rescue CD"
+iso_application="Agni OS Live/Rescue CD"
 iso_version="$(date +%Y.%m)"
 install_dir="arch"
+buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
