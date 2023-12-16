@@ -77,7 +77,7 @@ nmap
 ntfs-3g
 nvme-cli
 open-iscsi
-open-vm-tools
+#open-vm-tools
 openconnect
 openpgp-card-tools
 openssh
@@ -141,9 +141,10 @@ networkmanager
 #Arch Linux GUI GNOME
 gnome
 gnome-tweaks
-#alg-gnome-settings
+alg-gnome-settings
 bluez-utils
 pulseaudio-bluetooth
+archlinux-wallpaper
 
 #Installer
 grub
