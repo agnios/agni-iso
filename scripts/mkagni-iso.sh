@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
+# Based on mkarchiso
 
 set -e -u
 shopt -s extglob
