@@ -1,3 +1,3 @@
 ./cleanup.sh
 
-sudo makeiso -v .
+./makeiso.sh -v .
