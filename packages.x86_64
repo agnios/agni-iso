@@ -136,18 +136,36 @@ networkmanager
 #xf86-input-libinput
 #base-devel
 #pacman-contrib
-#virtualbox-guest-utils
+virtualbox-guest-utils
 
 #Arch Linux GUI GNOME
 gnome
 gnome-tweaks
 alg-gnome-settings
 bluez-utils
-pulseaudio-bluetooth
-archlinux-wallpaper
 
 #Installer
 grub
 calamares
 agni-cala-config
 os-prober
+
+#Bluetooth
+bluez
+gnome-bluetooth
+pulseaudio-bluetooth
+
+#Themes and settings
+#Theming
+tela-circle-icon
+vimix-cursors
+orchis-theme-git
+archlinux-wallpaper
+
+#Applications
+vlc
+neofetch
+
+#browser
+firefox
+firefox-dark-reader
