@@ -51,7 +51,7 @@ fi
 
 
 echo "#################################"
-echo "End alg-remove-nvidia"
+echo "End agni-remove-nvidia"
 echo "#################################"
-rm /usr/local/bin/alg-remove-nvidia
+rm /usr/local/bin/agni-remove-nvidia
 
