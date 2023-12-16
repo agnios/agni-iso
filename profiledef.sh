@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="agni"
-iso_label="AGNI_$(date +%Y%m)"
-iso_publisher="DemonKiller <https://demonkiller.tech>"
-iso_application="AgniOS Live/Rescue CD"
-iso_version="$(date +%Y.%m)"
+iso_name="archlinux"
+iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="Arch Linux <https://archlinux.org>"
+iso_application="Arch Linux Live/Rescue CD"
+iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
-bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
+buildmodes=('iso')
+bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
+           'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'
+           'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
@@ -16,10 +19,8 @@ file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
+  ["/root/.gnupg"]="0:0:700"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  ["/usr/local/bin/agni-remove-nvidia"]="0:0:755"
-  ["/usr/local/bin/agni-preset"]="0:0:755"
-  ["/usr/local/bin/agni-finalisation"]="0:0:755"
 )
