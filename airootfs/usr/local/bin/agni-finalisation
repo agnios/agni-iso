@@ -11,4 +11,4 @@ rm -vf /etc/polkit-1/rules.d/49-nopasswd_global.rules
 rm -vr /etc/systemd/system/etc-pacman.d-gnupg.mount
 rm -vf /root/{.automated_script.sh,.zlogin}
 
-rm /usr/local/bin/{alg-finalisation,livecd-sound,Installation_guide}
+rm /usr/local/bin/{agni-finalisation,livecd-sound,Installation_guide}

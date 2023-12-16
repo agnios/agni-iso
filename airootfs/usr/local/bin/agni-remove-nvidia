@@ -1,6 +1,6 @@
 #!/bin/bash
 # driver=free or driver=nonfree - grub and efi
-echo "Start alg-remove-nvidia"
+echo "Start agni-remove-nvidia"
 kernel_cmdline(){
 	for param in $(cat /proc/cmdline); do
 		case "${param}" in
