@@ -2,9 +2,9 @@
 # shellcheck disable=SC2034
 
 iso_name="agnios"
-iso_label="AGNI_(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="AgniOS <https://agnios.org>"
-iso_application="AgniOS Live/Rescue CD"
+iso_label="AGNI_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="Agni OS <https://agnios.org>"
+iso_application="Agni OS Live/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
@@ -23,4 +23,7 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/usr/local/bin/agni-remove-nvidia"]="0:0:755"
+  ["/usr/local/bin/agni-preset"]="0:0:755"
+  ["/usr/local/bin/agni-finalisation"]="0:0:755"
 )

@@ -1,4 +1,3 @@
-#Archiso
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -7,6 +6,7 @@ b43-fwcutter
 base
 bind
 bolt
+brltty
 broadcom-wl
 btrfs-progs
 clonezilla
@@ -128,38 +128,24 @@ xfsprogs
 xl2tpd
 zsh
 
-#AgniOS core
+#Agni Core
 xorg
 gdm
 bash-completion
 networkmanager
+#xf86-input-libinput
+#base-devel
+#pacman-contrib
+#virtualbox-guest-utils
 
-#GNOME Applications for AgniOS
-cheese
-eog
-evince
-gedit
-gnome-desktop
-gnome-clocks
-gnome-control-center
-gnome-keyring
-gnome-screenshot
-gnome-shell-extensions
-gnome-session
-gnome-shell
-gnome-terminal
-gnome-backgrounds
-gnome-music
-gnome-calendar
-#gnome-software
-gvfs
-mutter
-nautilus
-xdg-user-dirs-gtk
-neofetch
-noto-fonts
+#Arch Linux GUI GNOME
+gnome
+gnome-tweaks
+#alg-gnome-settings
+bluez-utils
+pulseaudio-bluetooth
 
-#Installer for AgniOS
+#Installer
 grub
 calamares
 agni-cala-config

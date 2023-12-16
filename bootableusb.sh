@@ -1,4 +1,4 @@
-#Bootable USB Maker for Thakur OS
+#Bootable USB Maker for Agni OS
 #!/bin/bash
 #set -e
 #=================================================================================
@@ -31,7 +31,7 @@ echo "                               "
 echo "================================================================"
 echo "Making ALG bootable USB, this may take sometime...."
 cd out
-sudo dd if=archlinux-gui-gnome-$(date +%Y.%m)-x86_64.iso of=/dev/sdb status='progress'
+sudo dd if=agnios-$(date +%Y.%m)-x86_64.iso of=/dev/sdb status='progress'
 
 
 echo "D O N E! Your USB should be bootable now, with Arch Linux GUI."
