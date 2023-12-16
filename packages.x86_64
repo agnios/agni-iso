@@ -1,3 +1,4 @@
+#Archiso
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -127,3 +128,40 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+#AgniOS core
+xorg
+gdm
+bash-completion
+networkmanager
+
+#GNOME Applications for AgniOS
+cheese
+eog
+evince
+gedit
+gnome-desktop
+gnome-clocks
+gnome-control-center
+gnome-keyring
+gnome-screenshot
+gnome-shell-extensions
+gnome-session
+gnome-shell
+gnome-terminal
+gnome-backgrounds
+gnome-music
+gnome-calendar
+#gnome-software
+gvfs
+mutter
+nautilus
+xdg-user-dirs-gtk
+neofetch
+noto-fonts
+
+#Installer for AgniOS
+grub
+calamares
+agni-cala-config
+os-prober
