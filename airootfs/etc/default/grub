@@ -39,11 +39,11 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment and set to the desired menu colors.  Used by normal and wallpaper
 # modes only.  Entries specified as foreground/background.
-GRUB_COLOR_NORMAL="white/black"
-GRUB_COLOR_HIGHLIGHT="light-cyan/black"
+GRUB_COLOR_NORMAL="red/black"
+GRUB_COLOR_HIGHLIGHT="black/white"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
-GRUB_BACKGROUND="/usr/share/backgrounds/gnome/real-wood.jpg"
+#GRUB_BACKGROUND="/usr/share/backgrounds/gnome/real-wood.jpg"
 #GRUB_THEME=
 
 # Uncomment to get a beep at GRUB start

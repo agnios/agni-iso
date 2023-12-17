@@ -136,7 +136,7 @@ networkmanager
 #xf86-input-libinput
 #base-devel
 #pacman-contrib
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 #Arch Linux GUI GNOME
 gnome

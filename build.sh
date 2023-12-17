@@ -9,4 +9,4 @@
 
 ./cleanup.sh
 
-./makeiso -v .
+sudo ./makeiso -v .
